@@ -73,7 +73,7 @@ class SearchBar extends React.Component{
           <SearchBar searchYelp={this.searchYelp} />
         </div>
         <div classname="SearchBar-submit">
-          <a>Lets Go</a>
+          <a onClick={this.handleSearch}>Lets Go</a>
         </div>
       </div>
       )
